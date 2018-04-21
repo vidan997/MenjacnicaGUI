@@ -284,7 +284,10 @@ public class MenjacnicaGUI extends JFrame {
 			mntmIzvrsiZamenu = new JMenuItem("Izvrsi zamenu");
 			mntmIzvrsiZamenu.addActionListener(new ActionListener() {
 				public void actionPerformed(ActionEvent e) {
+					IzvrsiZamenuGUI dkp = 
+							new IzvrsiZamenuGUI(gp);
 					
+					dkp.setVisible(true);
 				}
 			});
 		}
@@ -335,7 +338,10 @@ public class MenjacnicaGUI extends JFrame {
 			btnIzvrsiZamenu = new JButton("Izvrsi zamenu");
 			btnIzvrsiZamenu.addActionListener(new ActionListener() {
 				public void actionPerformed(ActionEvent e) {
+					IzvrsiZamenuGUI dkp = 
+							new IzvrsiZamenuGUI(gp);
 					
+					dkp.setVisible(true);
 				}
 			});
 		}
