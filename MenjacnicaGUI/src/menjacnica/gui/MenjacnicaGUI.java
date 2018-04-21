@@ -270,7 +270,10 @@ public class MenjacnicaGUI extends JFrame {
 			mntmObrisiKurs = new JMenuItem("Obrisi kurs");
 			mntmObrisiKurs.addActionListener(new ActionListener() {
 				public void actionPerformed(ActionEvent e) {
+					ObrisiKursGUI dkp = 
+							new ObrisiKursGUI(gp);
 					
+					dkp.setVisible(true);
 				}
 			});
 		}
@@ -317,7 +320,10 @@ public class MenjacnicaGUI extends JFrame {
 			btnObrisiKurs = new JButton("Obrisi kurs");
 			btnObrisiKurs.addActionListener(new ActionListener() {
 				public void actionPerformed(ActionEvent e) {
+					ObrisiKursGUI dkp = 
+							new ObrisiKursGUI(gp);
 					
+					dkp.setVisible(true);
 				}
 			});
 			btnObrisiKurs.setPreferredSize(new Dimension(111, 25));
